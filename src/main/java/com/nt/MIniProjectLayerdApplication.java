@@ -61,7 +61,7 @@ public class MIniProjectLayerdApplication {
     	        	emp.setDesg(desg);
     	        	emp.setSalary(salary);
     	        	
-					
+					// i added for this temp
 					  String msg=controller.addEmployee(emp); System.out.println(msg);
 					 
     	        	}//end of the try3
@@ -82,7 +82,7 @@ public class MIniProjectLayerdApplication {
     				
     	        
     				//close IOC Container
-//    				ctx.close();  //not need to close becase already close with try with resource
+//   				ctx.close();  //not need to close becase already close with try with resource
     	}
 
 }
