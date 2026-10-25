@@ -42,6 +42,7 @@ public class EmployeeMgmtSercieImpl implements IEmployeeMgmtService {
 			//use DAO
 			int result=empDAO.insert(emp);
 			return result==0?"Employee not inserted":"Employee is inserted";
-	  }
+	  }  
+	  //testing 4
 	 
 }
